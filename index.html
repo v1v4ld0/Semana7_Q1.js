@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <style>
+        body {
+    background: rgb(26, 71, 126);
+    font: normal 15pt Arial;
+    }
+
+        header {
+            color: rgb(243, 211, 152);
+            text-align: center;
+    }
+
+        section {
+            background: white;
+            border-radius: 10px;
+            padding: 5px;
+            width: 500px;
+            margin: auto;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gerador de Listas</h1>
+    </header>
+    <section>
+        <div>
+            <p>Qual nome você quer que apareça?</p>
+            Escreva: <input type="text" name="nome" id="nomelista">
+            <p>Quantas listas você quer gerar?</p>
+            Digite: <input type="number" name="numlista" id="numlista">
+            <p>
+                <input type="button" value="Confirmar" onclick="listas()">
+            </p>
+            <ul id="addlistas">
+               
+            </ul>
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <script src="Semana7_Q1.js"></script>
+</body>
+</html>
